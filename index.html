@@ -10,6 +10,7 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="./css/style.css">
+      <link rel="website icon" type="png" href="./logo/logo.png">
       <title>Головна Ресторан Gerícht</title>
    </head>
    <header>
@@ -24,17 +25,17 @@
                   <a class="nav_item" href="#About_us">About us</a>
                </li>
                <li  class="nav_list"> 
-                  <a class="nav_item"  href="#">Menu</a>
+                  <a class="nav_item"  href="./Menu/menu.html">Menu</a>
                </li>
                <li  class="nav_list">
-                  <a class="nav_item" href="#">Contacts</a>
+                  <a class="nav_item" href="./Contacts/contact.html">Contacts</a>
                </li>
                <li  class="nav_list">
-                  <a class="nav_item" href="#">Blog</a>
+                  <a class="nav_item" href="./Blog/blog.html">Blogs</a>
                </li>
             </nav>
             <div>
-               <span class="btn">Log in/Registration</span>
+               <a href="./Reserve/reserve.html" class="btn">Reserve/Table</a>
             </div>
          </div>
       </div>
@@ -46,7 +47,7 @@
                <span class="footer_subtitle">Переслідуйте новий аромат</span>
                <h1 class="footer_title">Ключ до вишуканої їжі</h1>
                <p class="footer_text">Запрошуємо вас в наш найвишуканіший ресторан "Gerícht".<br> Тут кожен шматочок їжі - це витвір мистецтва, створений з <br> найсвіжіших та найкращих інгредієнтів. </p>
-               <button class="footer_btn">Перейти до меню</button>
+               <a href="./Menu/menu.html" class="footer_btn">Перейти до меню</a>
             </div>
             <div class="border"> 
                <img class="img" src="./img/meal2.jpg" alt="Фото страви на тарілці">
@@ -62,7 +63,7 @@
                <h2 class="section-title-first">Про нас</h2>
                <i style="transform: rotate(225deg); color:#DCCA87; position: relative; left: 31vh;" class="fa-solid fa-spoon"></i>
                <p class="section-text-first">Клієнт дуже важливий, за клієнтом піде клієнт".Замовник є дуже важливою особою, за ним піде інший замовник.</p>
-               <div><button class="section-btn-first">Дізнайтеся більше</button></div>
+               <div><a href="./Blog/blog.html" class="section-btn-first">Дізнайтеся більше</a></div>
             </div>
             <img class="word-G" src="./img/G.svg" alt="Буква G">
             <img class="src" src="./img/knive.png" alt="Фото кухонного прибора">
@@ -71,7 +72,7 @@
                <i style="transform: rotate(45deg); color:#DCCA87;" class="fa-solid fa-spoon"></i>
                <p class="section-text-second">У нашому ресторані ми завжди готові зустріти вас з усім гарним!
                   Тут ви не лише наш гість, але й наш дорогий клієнт, який завжди має перевагу.
-               <div><button class="section-btn-second">Дізнайтеся більше</button></div>
+               <div><a href="./Blog/blog.html" class="section-btn-second">Дізнайтеся більше</a></div>
             </div>
          </div>
       </div>
@@ -79,9 +80,9 @@
    <aside>
       <div class="aside">
          <div class="aside-content">
-            <h1 class="aside-title">Bar Menu</h1>
-            <h1 class="aside-title">Food Menu</h1>
-            <h1 class="aside-title">Desserts Menu</h1>
+            <a href="./Menu/menu.html?menu=bar" id="Bar_Menu" class="aside-title">Bar Menu</a>
+            <a href="./Menu/menu.html?menu=desserts" id="Desserts_Menu" class="aside-title">Desserts Menu</a>
+            <a href="./Menu/menu.html?menu=food" id="Food_Menu" class="aside-title">Food Menu</a>            
          </div>
       </div>
    </aside>
@@ -108,7 +109,7 @@
                <p class="reviews">Обслуговування сподобалось. Офіціант все<br> вчасно приносила,запропонувала пересісти на<br> зручніший столик,коли він звільнився.</p>
                <h4 class="people-name">Anna Savula</h4>
             </div>
-            <img class="img-people" src="./img/man2.jpg"alt="Фото клієнтки">
+            <img class="img-people" src="./img/man2.jpg" alt="Фото клієнтки">
             <div>
                <p class="reviews">Чудове місце!!! Гарне обслуговування!!!<br> Буваю досить часто!!! Смачно!!! Кухня відмінна!!!</p>
                <h4 class="people-name">Vito Simens</h4>
@@ -127,7 +128,7 @@
                <h2 class="section-media-title">Фотогалерея</h2>
                <p class="section-media-text">Смак, який завойовує серця: Дегустаційні шедеври нашого ресторану!</p>
                <div>
-                  <button class="section-media-btn">Дивитись більше</button>
+                  <a href="./Blog/blog.html" class="section-media-btn">Дивитись більше</a>
                </div>
             </div>
             <div class="section-content-img">
@@ -157,8 +158,10 @@
       <div class="section-nav">
          <div style="text-align: center;">
             <h4 class="section-nav-contact">Зв'яжіться з нами</h4>
-            <span class="section-contact-telephone">+380 95 066 25 06</span>
-            <div><span class="section-contact-telephone">+380 64 730 54 56</span></div>
+            <a href="tel: +380 95 066 25 06" class="section-contact-telephone">+380 95 066 25 06</a>
+            <div>
+               <a href="tel: +380 64 730 54 56" class="section-contact-telephone">+380 64 730 54 56</a>
+            </div>
          </div>
          <div style="text-align: center;">
             <h2 class="section-nav-logo">Gerícht</h2>

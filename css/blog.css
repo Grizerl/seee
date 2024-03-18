@@ -1,0 +1,259 @@
+body
+{
+    margin: 0px;
+    height: 230vh;
+    background:var( --theme-background);
+}
+li
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+   
+}
+.header-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo
+{
+    font-family: "Cormorant Upright", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    color: var(--theme-color-text);
+    text-transform: uppercase;
+}
+.nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_item
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding: 0px 20px 0px 10px;
+    color: var(--theme-color-text);
+    transition: color .25s;
+}
+.nav_item:hover
+{
+    color: var(--theme-color-title);
+}
+.btn
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 19px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    color: var(--theme-color-text);
+}
+.footer-header-title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Cormorant Upright", serif;
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-top: 50px;
+    color: var(--theme-color-title);
+}
+.footer-header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.footer-subtitle
+{
+    font-family: Cormorant Upright;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+   color: var(--theme-color-text);
+
+}
+.footer-title
+{
+    font-family: Cormorant Upright;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    color: var(--theme-color-title);
+}
+.footer-text
+{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.7;
+    letter-spacing: 0.04em;
+    color: var(--theme-color-nav);
+}
+.footer-name
+{
+    font-family: Cormorant Upright;
+    font-size: 2rem;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    color: var(--theme-color-title);
+}
+.footer-work
+{
+    font-family: Open Sans;
+    font-size: 17px;
+    margin-top: 0px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: var(--theme-color-text);
+}
+.aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.aside-header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10vh;
+}
+.aside-header-title
+{
+    
+    font-family: Cormorant Upright;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: var(--theme-color-text);
+}
+.aside-footer-title
+{
+   
+    font-family: Cormorant Upright;
+    font-size: 2.35rem;
+    margin-top: 15px;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    color: var(--theme-color-title);
+}
+.image
+{
+    width: 80%;
+}
+.aside-p
+{
+    font-family: Cormorant Upright;
+    font-size: 1.35rem;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    color: var(--theme-color-title);
+
+}
+.aside-advice
+{
+    font-family: Open Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7;
+    margin: 0px 15px 0px 0px;
+    color: var(--theme-color-nav);
+}
+.section-nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+.section-nav-contact
+{
+    font-family: Cormorant Upright;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    color: var(--theme-color-nav);
+}
+.section-contact-telephone
+{
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: var(--theme-color-p);
+}
+.section-nav-logo
+{
+    font-family: Cormorant Upright;
+    font-size: 3.4rem;
+    color: var(--theme-color-title);
+    margin-bottom: 25px;
+}
+.section-nav-span
+{
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: var(--theme-color-text);
+    margin-bottom: 20px;
+
+}
+#icon{
+    color: var(--theme-color-text);
+    font-size: large;
+    margin: 10px;
+    cursor: pointer;
+}
+.section-nav-hour
+{
+    font-family: Cormorant Upright;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    color: var(--theme-color-nav);
+}
+.section-nav-work
+{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: var(--theme-color-nav);
+
+}
+:root{
+    --theme-background-btn:aliceblue;
+    --theme-background:#0C0C0C;
+    --theme-color-p:#AAAAAA;
+    --theme-color-text:#ffffff;
+    --theme-instagram-color:#fff;
+    --theme-color-title:#DCCA87;
+    --theme-color-nav: #F5EFDB;
+}
